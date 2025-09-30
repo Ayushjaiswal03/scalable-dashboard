@@ -20,3 +20,19 @@ A full-stack user dashboard built with Express, MongoDB Atlas, Redis, and React 
 backend/ ├── controllers/ ├── models/ ├── routes/ ├── utils/ ├── app.js ├── server.js
 
 frontend/ ├── src/ │ ├── components/ │ ├── pages/ │ ├── services/ │ ├── utils/ │ ├── App.jsx │ └── main.jsx
+
+
+## 🚀 Getting Started
+
+```bash
+# Backend
+cd backend
+npm install
+NODE_ENV=development nodemon server.js
+
+# Frontend
+cd frontend
+npm install
+npm run dev
+
+
